@@ -9,7 +9,7 @@ export const Main = styled.div`
 
   @media (min-width: 1024px) {
     flex-direction: row;
-    margin: 10% 0 10% 0;
+    margin: 10% 20px 5% 20px;
   }
 `;
 
@@ -21,14 +21,24 @@ export const Container = styled.div`
 
   h1 {
     margin-bottom: 33px;
+    font-size: 32px;
   }
 
   h3 {
     margin-bottom: 33px;
+    font-size: 16px;
   }
 
   @media (min-width: 1024px) {
     align-items: flex-start;
+
+    h1 {
+      font-size: 65px;
+    }
+
+    h3 {
+      font-size: 20px;
+    }
   }
 `;
 

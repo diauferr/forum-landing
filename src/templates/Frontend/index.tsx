@@ -1,6 +1,7 @@
 import React from "react";
-import Navbar from "../../organisms/Navbar";
+import { Navbar } from "../../organisms/Navbar";
 import { Hero } from "../../organisms/Hero";
+import { Partners } from "../../organisms/Partners";
 
 import * as S from "./styles";
 
@@ -13,6 +14,7 @@ const Frontend = ({ children }: FrontendProps) => {
     <S.Container>
       <Navbar></Navbar>
       <Hero></Hero>
+      <Partners></Partners>
     </S.Container>
   );
 };

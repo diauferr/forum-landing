@@ -7,7 +7,7 @@ import Menu from "../../molecules/Menu";
 import Logo from "../../atoms/Logo";
 import { Hamburguer } from "../../molecules/Hamburguer";
 
-const Navbar = () => {
+export const Navbar = () => {
   const { width } = useWindowDimensions();
 
   return (
@@ -17,5 +17,3 @@ const Navbar = () => {
     </S.Navbar>
   );
 };
-
-export default Navbar;

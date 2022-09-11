@@ -2,7 +2,7 @@ import React from "react";
 
 import * as S from "./styles";
 
-import Image from "../../../public/assets/Hamburguer.svg";
+import Image from "../../assets/Hamburguer.svg";
 
 export const Hamburguer = () => {
   return (
