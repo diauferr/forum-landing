@@ -5,12 +5,11 @@ interface Props {
   }
 
 export const Button = styled.button`
-    height: 58px;
-    width: 58px;
-    background-color: white;
+    height: 100%;
+    background-color: transparent;
 `;
 
-export const Image = styled.image<Props>`
-    height: 100%;
-    width: 100%;
+export const Image = styled.img<Props>`
+    height: 80%;
+    width: 80%;
 `;

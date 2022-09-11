@@ -12,7 +12,6 @@ export const Container = styled.div`
     align-items: center;
     width: fit-content;
     margin: 0 0 20px 0;
-
     @media (min-width: 1024px) {
         margin: 60px 0 0 0;
   }

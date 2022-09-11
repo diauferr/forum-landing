@@ -15,6 +15,14 @@ const Frontend = ({ children }: FrontendProps) => {
       <Navbar></Navbar>
       <Hero></Hero>
       <Partners></Partners>
+      <Partners></Partners>
+      <Partners></Partners>
+      <Partners></Partners>
+      <Partners></Partners>
+      <Partners></Partners>
+      <Partners></Partners>
+      <Partners></Partners>
+      <Partners></Partners>
     </S.Container>
   );
 };
