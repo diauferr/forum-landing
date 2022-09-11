@@ -1,4 +1,6 @@
 import React from "react";
+import Navbar from "../../organisms/Navbar";
+
 import * as S from "./styles";
 
 type FrontendProps = {
@@ -6,7 +8,11 @@ type FrontendProps = {
 };
 
 const Frontend = ({ children }: FrontendProps) => {
-  return <S.Container>Teste Frontend {children}</S.Container>;
+  return (
+    <S.Container>
+      <Navbar></Navbar>
+    </S.Container>
+  );
 };
 
 export default Frontend;
