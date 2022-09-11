@@ -1,7 +1,7 @@
 import React from "react";
 
-import Button from "../../atoms/Button";
 import { Link } from "../../atoms/Link";
+import { Button } from "../../atoms/Button";
 
 import * as S from "./styles";
 

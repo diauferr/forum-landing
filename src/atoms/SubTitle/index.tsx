@@ -7,10 +7,10 @@ interface Props {
   fontSize: number;
 }
 
-export const Title = ({ text, fontSize }: Props) => {
+export const SubTitle = ({ text, fontSize }: Props) => {
   return (
-    <S.Title fontSize={fontSize} color="black">
+    <S.SubTitle fontSize={fontSize} color="blue">
       {text}
-    </S.Title>
+    </S.SubTitle>
   );
 };

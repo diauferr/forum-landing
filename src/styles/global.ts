@@ -17,7 +17,7 @@ const globalStyle = createGlobalStyle`
     }
 
     button {
-        background-color: none;
+        background-color: white;
         border: none;
         outline: none;
     }
