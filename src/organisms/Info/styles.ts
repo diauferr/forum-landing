@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import Image from '../../assets/Circle.svg'
+import Image from '/assets/Circle.svg'
 
 export const Main = styled.div`
     padding: 50px;

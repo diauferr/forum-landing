@@ -2,7 +2,7 @@ import React from "react";
 
 import * as S from "./styles";
 
-import Image from "../../assets/Play.svg";
+import Image from "/assets/Play.svg";
 
 interface Props {
   text: string;
