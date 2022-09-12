@@ -3,6 +3,7 @@ import { Navbar } from "../../organisms/Navbar";
 import { Hero } from "../../organisms/Hero";
 import { Partners } from "../../organisms/Partners";
 import { Info } from "../../organisms/Info";
+import { Features } from "../../organisms/Features";
 
 import * as S from "./styles";
 
@@ -17,6 +18,7 @@ const Frontend = ({ children }: FrontendProps) => {
       <Hero></Hero>
       <Partners></Partners>
       <Info></Info>
+      <Features></Features>
     </S.Container>
   );
 };

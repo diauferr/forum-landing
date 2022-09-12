@@ -7,7 +7,7 @@ interface Props {
 
 export const Title = styled.h1<Props>`
     font-size: ${props => `${props.fontSize}px`};
-    color: ${props => props.color === 'blue' ? '#1D2538': '' || props.color === 'black' ? '#000000': ''};
+    color: ${props => props.color};
     font-family: 'Circular Std Bold';
     max-width: 620px;
 `;

@@ -4,8 +4,9 @@ import * as S from "./styles";
 
 interface Props {
   text: string;
+  color: string;
 }
 
-export const Title = ({ text }: Props) => {
-  return <S.Title color="black">{text}</S.Title>;
+export const Title = ({ text, color }: Props) => {
+  return <S.Title color={color}>{text}</S.Title>;
 };
