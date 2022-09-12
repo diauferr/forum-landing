@@ -6,7 +6,6 @@ function template(i: number, duration: number) {
             background: rgba(255, 255, 255, 0.2);
             -webkit-backdrop-filter: blur(5px);
             backdrop-filter: blur(5px);
-            padding: 0 30px 0 30px;
          }
       `;
 }
@@ -21,16 +20,18 @@ function getAnimations() {
 
 export const Navbar = styled.nav`
     background: transparent;
-    height: 58px;
+    height: 78px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: sticky;
-    top: 0px;
+    top: 0;
     margin: 20px 0 20px 0;
-    transition: all ease 0.3s;
+    transition: all ease 0.5s;
+    z-index: 100;
 
     &.active {
+        height: 68px;
         ${getAnimations()}
   }
 `;

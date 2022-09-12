@@ -2,6 +2,7 @@ import React from "react";
 import { Navbar } from "../../organisms/Navbar";
 import { Hero } from "../../organisms/Hero";
 import { Partners } from "../../organisms/Partners";
+import { Info } from "../../organisms/Info";
 
 import * as S from "./styles";
 
@@ -15,14 +16,7 @@ const Frontend = ({ children }: FrontendProps) => {
       <Navbar></Navbar>
       <Hero></Hero>
       <Partners></Partners>
-      <Partners></Partners>
-      <Partners></Partners>
-      <Partners></Partners>
-      <Partners></Partners>
-      <Partners></Partners>
-      <Partners></Partners>
-      <Partners></Partners>
-      <Partners></Partners>
+      <Info></Info>
     </S.Container>
   );
 };

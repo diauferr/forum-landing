@@ -30,7 +30,7 @@ export const Navbar = () => {
   window.addEventListener("resize", showButton);
 
   const changeNavbar = () => {
-    if (window.scrollY >= 100) {
+    if (window.scrollY >= 10) {
       setNavbar(true);
     } else {
       setNavbar(false);
