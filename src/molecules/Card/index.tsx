@@ -1,6 +1,6 @@
 import React from "react";
 
-import Topic from "/assets/Topic.svg";
+import Dot from "/assets/Dot.svg";
 
 import * as S from "./styles";
 
@@ -44,7 +44,7 @@ export const Card = () => {
       {data.map((item: Props) => (
         <S.Card key={item.id}>
           <S.Icon src={item.icon} alt={item.title} />
-          <S.Topic src={Topic} alt="" />
+          <S.Dot src={Dot} alt="" />
           <S.Name color="#1D2538" text={item.title} key={item.id} />
           <S.Desc>{item.desc}</S.Desc>
         </S.Card>

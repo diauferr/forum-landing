@@ -1,10 +1,9 @@
 import React from "react";
 
-import { Title } from "../../atoms/Title";
-
 import Image from "/assets/Features.svg";
 
 import * as S from "./styles";
+import { SectionTitle } from "../../atoms/SectionTitle";
 
 interface Props {
   id: number;
@@ -43,7 +42,7 @@ const data: Props[] = [
 export const Features = () => {
   return (
     <S.Main>
-      <Title text="Recursos" color="white" />
+      <SectionTitle text="Recursos" color="white" />
       <S.Container>
         <S.Wrapper>
           {data.map((item: Props) => (

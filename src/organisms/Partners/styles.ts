@@ -5,16 +5,7 @@ export const Main = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    h1 {
-        text-align: center;
-        font-size: 22px;
-        margin-bottom: 50px;
-
-        @media (min-width: 1024px) {
-            font-size: 40px;
-        }
-    }
+    text-align: center;
 `;
 
 export const Container = styled.div`

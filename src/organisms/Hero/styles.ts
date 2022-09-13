@@ -19,26 +19,8 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
 
-  h1 {
-    margin-bottom: 33px;
-    font-size: 32px;
-  }
-
-  h3 {
-    margin-bottom: 33px;
-    font-size: 16px;
-  }
-
   @media (min-width: 1024px) {
     align-items: flex-start;
-
-    h1 {
-      font-size: 65px;
-    }
-
-    h3 {
-      font-size: 20px;
-    }
   }
 `;
 

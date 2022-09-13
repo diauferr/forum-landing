@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
 interface Props {
-    fontSize?: number;
     color?: string;
 }
 
-export const SubTitle = styled.h3<Props>`
-    font-size: ${props => `${props.fontSize}px`};
-    color: ${props => props.color === 'blue' ? '#1D2538': '' || props.color === 'black' ? '#000000': ''};
-    font-family: 'Circular Std Bold';
-    max-width: 570px;
+export const SubTitle = styled.h2<Props>`
+    font-size: 20px;
+    color: ${props => props.color};
+    font-family: 'Circular Std Book';
+    max-width: 470px;
     opacity: 0.7;
+    margin-bottom: 33px;
 `;

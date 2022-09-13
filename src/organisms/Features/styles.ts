@@ -8,7 +8,10 @@ export const Main = styled.div`
     background-origin: content-box;
     padding: 50px 0 0 0;
     margin: 0 0 50px 0;
+    text-align: justify;
 
+    @media (min-width: 1024px) {
+    }
 `;
 
 export const Container = styled.div`

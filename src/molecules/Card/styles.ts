@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import { Title } from "../../atoms/Title";
+import { Topic } from "../../atoms/Topic";
 
 export const Main = styled.div`
     display: grid;
@@ -31,12 +31,11 @@ export const Icon = styled.img`
     height: 110px;
 `;
 
-export const Name = styled(Title)`
-    font-size: 32px;
+export const Name = styled(Topic)`
     margin: 15px 0 15px 0;
 `;
 
-export const Topic = styled.img`
+export const Dot = styled.img`
     width: 64px;
     height: 64px;
     margin: 15px 0 15px 0;
