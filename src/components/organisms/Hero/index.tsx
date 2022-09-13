@@ -1,6 +1,6 @@
 import React from "react";
 
-import useWindowDimensions from "../../helpers/useWindowDimensions";
+import useWindowDimensions from "../../../helpers/useWindowDimensions";
 
 import Image from "/assets/Hero.svg";
 

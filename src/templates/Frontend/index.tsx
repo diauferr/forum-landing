@@ -1,10 +1,10 @@
 import React from "react";
-import { Navbar } from "../../organisms/Navbar";
-import { Hero } from "../../organisms/Hero";
-import { Partners } from "../../organisms/Partners";
-import { Info } from "../../organisms/Info";
-import { Resources } from "../../organisms/Resources";
-import { Testimonials } from "../../organisms/Testimonials";
+import { Navbar } from "../../components/organisms/Navbar";
+import { Hero } from "../../components/organisms/Hero";
+import { Partners } from "../../components/organisms/Partners";
+import { Info } from "../../components/organisms/Info";
+import { Resources } from "../../components/organisms/Resources";
+import { Testimonials } from "../../components/organisms/Testimonials";
 
 import * as S from "./styles";
 

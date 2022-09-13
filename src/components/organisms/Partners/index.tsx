@@ -13,7 +13,10 @@ import { SectionTitle } from "../../atoms/SectionTitle";
 export const Partners = () => {
   return (
     <S.Main>
-      <SectionTitle color="#1D2538" text="Nossos parceiros e clientes"></SectionTitle>
+      <SectionTitle
+        color="#1D2538"
+        text="Nossos parceiros e clientes"
+      ></SectionTitle>
       <S.Container>
         <S.Image src={Camara} alt="" />
         <S.Image src={Stf} alt="" />

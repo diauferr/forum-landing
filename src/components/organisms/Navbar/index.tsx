@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 import * as S from "./styles";
 
-import useWindowDimensions from "../../helpers/useWindowDimensions";
+import useWindowDimensions from "../../../helpers/useWindowDimensions";
 import Menu from "../../molecules/Menu";
 import Logo from "../../atoms/Logo";
 import { Hamburguer } from "../../molecules/Hamburguer";
