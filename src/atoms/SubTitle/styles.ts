@@ -10,5 +10,13 @@ export const SubTitle = styled.h2<Props>`
     font-family: 'Circular Std Book';
     max-width: 470px;
     opacity: 0.7;
-    margin-bottom: 33px;
+    margin: 0 0 33px 0;
+
+    @media (min-width: 768px) {
+        font-size: 22px;
+    }
+
+    @media (min-width: 1024px) {
+        font-size: 24px;
+    }
 `;

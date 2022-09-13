@@ -20,7 +20,10 @@ export const Hero = () => {
           color="#1D2538"
           text="Conteúdo jurídico certificado ilimitado"
         ></Title>
-        <SubTitle color="#1D2538" text="Para uma experiência de pesquisa segura, prática e completa"></SubTitle>
+        <SubTitle
+          color="#1D2538"
+          text="Para uma experiência de pesquisa segura, prática e completa"
+        ></SubTitle>
         <ButtonPlay text="Consulte especialistas" />
       </S.Container>
       <S.Image src={Image}></S.Image>

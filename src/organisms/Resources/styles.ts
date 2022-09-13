@@ -42,36 +42,6 @@ export const Wrapper = styled.div`
     }
 `;
 
-export const Card = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: top;
-    min-height: 200px
-`;
-
-export const Icon = styled.img`
-    width: 60px;
-    height: 60px;
-`;
-
-export const Title = styled.h3`
-    color: white;
-    font-size: 18px;
-    margin: 15px 0 15px 0;
-    font-family: 'Circular Std Bold';
-`;
-
-export const Desc = styled.p`
-    color: white;
-    opacity: 0.7;
-    font-family: 'Circular Std Book';
-    font-size: 16px;
-    max-width: 350px;
-    text-align: center;
-    margin: 15px 0 15px 0;
-`;
-
 export const Picture = styled.img`
-
+    max-width: 100%;
 `;

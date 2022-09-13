@@ -9,4 +9,5 @@ export const Link = styled.a<Props>`
     font-size: 18px;
     margin: 0 20px 0 20px;
     color: ${props => props.isActive === true ? '#D7282F' : '#AE9999'} ;
+    cursor: pointer;
 `;

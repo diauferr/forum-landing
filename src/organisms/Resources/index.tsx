@@ -1,9 +1,10 @@
 import React from "react";
 
-import Image from "/assets/Features.svg";
+import Image from "/assets/Resources.svg";
 
 import * as S from "./styles";
 import { SectionTitle } from "../../atoms/SectionTitle";
+import { Features } from "../../molecules/Features";
 
 interface Props {
   id: number;
@@ -39,18 +40,14 @@ const data: Props[] = [
   },
 ];
 
-export const Features = () => {
+export const Resources = () => {
   return (
     <S.Main>
       <SectionTitle text="Recursos" color="white" />
       <S.Container>
         <S.Wrapper>
           {data.map((item: Props) => (
-            <S.Card key={item.id}>
-              <S.Icon src={item.icon} alt={item.title} />
-              <S.Title key={item.id}>{item.title}</S.Title>
-              <S.Desc>{item.desc}</S.Desc>
-            </S.Card>
+            <Features item={item} />
           ))}
         </S.Wrapper>
         <S.Picture src={Image} />

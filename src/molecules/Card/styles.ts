@@ -2,28 +2,12 @@ import styled from "styled-components";
 
 import { Topic } from "../../atoms/Topic";
 
-export const Main = styled.div`
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 20px;
-    place-items: center;
-    
-    @media (min-width: 768px) {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    @media (min-width: 1024px) {
-        grid-template-columns: repeat(4, 1fr);
-        min-height: 600px;
-    }
-`;
-
 export const Card = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: top;
-    min-height: 400px
+    min-height: 450px;
 `;
 
 export const Icon = styled.img`
@@ -48,5 +32,6 @@ export const Desc = styled.p`
     font-size: 20px;
     max-width: 350px;
     text-align: center;
+    line-height: 150%;
     margin: 15px 0 15px 0;
 `;
