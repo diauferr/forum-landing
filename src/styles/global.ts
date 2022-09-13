@@ -9,6 +9,7 @@ import circularStdBlackItalic from '../fonts/CircularStd-BlackItalic.woff'
 import circularStdBook from '../fonts/CircularStd-Book.woff'
 import circularStdBookItalic from '../fonts/CircularStd-BookItalic.woff'
 import poppinsThin from '../fonts/Poppins-Thin.woff'
+import poppinsRegular from '../fonts/Poppins-Regular.woff'
 
 const globalStyle = createGlobalStyle`
     * {
@@ -71,6 +72,11 @@ const globalStyle = createGlobalStyle`
     @font-face {
         font-family: 'Poppins Thin';
         src:  url(${poppinsThin}) format('woff');
+    }
+
+    @font-face {
+        font-family: 'Poppins Regular';
+        src:  url(${poppinsRegular}) format('woff');
     }
 `
 

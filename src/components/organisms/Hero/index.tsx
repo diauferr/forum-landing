@@ -24,7 +24,11 @@ export const Hero = () => {
           color="#1D2538"
           text="Para uma experiência de pesquisa segura, prática e completa"
         ></SubTitle>
-        <ButtonPlay text="Consulte especialistas" />
+        <ButtonPlay
+          backgroundColor="#D7282F"
+          color="#FFF"
+          text="Consulte especialistas"
+        />
       </S.Container>
       <S.Image src={Image}></S.Image>
     </S.Main>

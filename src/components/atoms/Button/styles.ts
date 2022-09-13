@@ -1,14 +1,13 @@
 import styled from "styled-components";
 
 interface Props {
-    fontSize: number;
     backgroundColor: string;
     color: string;
   }
 
 export const Button = styled.button<Props>`
     color: ${props => `${props.color}`};
-    font-size: ${props => `${props.fontSize}px`};
+    font-size: 18px;
     height: 58px;
     width: fit-content;
     min-width: 155px;

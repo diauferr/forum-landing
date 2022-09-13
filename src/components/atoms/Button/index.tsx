@@ -6,11 +6,9 @@ interface Props {
   text: string;
 }
 
-import { ButtonPlay } from "../ButtonPlay";
-
 export const Button = ({ text }: Props) => {
   return (
-    <S.Button fontSize={18} backgroundColor={"#D7282F"} color={"#FFF"}>
+    <S.Button backgroundColor="#D7282F" color="#FFF">
       {text}
     </S.Button>
   );

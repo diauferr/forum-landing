@@ -5,6 +5,8 @@ import { Partners } from "../../components/organisms/Partners";
 import { Info } from "../../components/organisms/Info";
 import { Resources } from "../../components/organisms/Resources";
 import { Testimonials } from "../../components/organisms/Testimonials";
+import { Authors } from "../../components/organisms/Authors";
+import { Action } from "../../components/organisms/Action";
 
 import * as S from "./styles";
 
@@ -21,6 +23,8 @@ const Frontend = ({ children }: FrontendProps) => {
       <Info></Info>
       <Resources></Resources>
       <Testimonials></Testimonials>
+      <Authors></Authors>
+      <Action></Action>
     </S.Container>
   );
 };

@@ -19,7 +19,7 @@ export const Container = styled.div`
 
 export const Button = styled.button<Props>`
     color: ${props => `${props.color}`};
-    font-size: ${props => `${props.fontSize}px`};
+    font-size: 18px;
     height: 72px;
     width: fit-content;
     min-width: 155px;

@@ -4,12 +4,15 @@ export const Main = styled.div`
     width: 100%;
     height: 100%;
     background: rgba(255, 255, 255, 0.54);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(9.3px);
     -webkit-backdrop-filter: blur(9.3px);
     display: flex;
     flex-direction: column;
+
+    @media (min-width: 768px) {
+        border-radius: 16px;
+    }
 `;
 
 export const Message = styled.p`
@@ -24,7 +27,7 @@ export const Message = styled.p`
     }
 
     @media (min-width: 1024px) {
-        font-size: 18px;
+        font-size: 17px;
     }
 `;
 
@@ -47,7 +50,7 @@ export const Description = styled.h2`
     font-size: 14px;
     color: #6B6B6B;
     line-height: 32px;
-    font-family: 'Poppins Thin';
+    font-family: 'Poppins Regular';
     padding: 0 0 15px 0;
 
     @media (min-width: 768px) {
@@ -55,6 +58,6 @@ export const Description = styled.h2`
     }
 
     @media (min-width: 1024px) {
-        font-size: 18px;
+        font-size: 16px;
     }
 `;
