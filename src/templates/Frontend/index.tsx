@@ -9,6 +9,7 @@ import { Authors } from "../../components/organisms/Authors";
 import { Action } from "../../components/organisms/Action";
 import { Faq } from "../../components/organisms/Faq";
 import { Newsletter } from "../../components/organisms/Newsletter";
+import { Footer } from "../../components/organisms/Footer";
 
 import * as S from "./styles";
 
@@ -29,6 +30,7 @@ const Frontend = ({ children }: FrontendProps) => {
       <Action />
       <Faq />
       <Newsletter />
+      <Footer />
     </S.Container>
   );
 };

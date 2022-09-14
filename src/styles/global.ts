@@ -16,6 +16,7 @@ const globalStyle = createGlobalStyle`
         padding: 0;
         margin: 0;
         box-sizing: border-box;
+        transition: all ease 0.2s;
     }
 
     button {
