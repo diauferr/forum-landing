@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Main = styled.div`
     background-color: #FBEAEB;
-    margin: 35px 0 55px 0;
+    margin: 35px 0 0 0;
 `;
 
 export const Wrapper = styled.div`

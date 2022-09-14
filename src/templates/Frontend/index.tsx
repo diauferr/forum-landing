@@ -8,6 +8,7 @@ import { Testimonials } from "../../components/organisms/Testimonials";
 import { Authors } from "../../components/organisms/Authors";
 import { Action } from "../../components/organisms/Action";
 import { Faq } from "../../components/organisms/Faq";
+import { Newsletter } from "../../components/organisms/Newsletter";
 
 import * as S from "./styles";
 
@@ -18,15 +19,16 @@ type FrontendProps = {
 const Frontend = ({ children }: FrontendProps) => {
   return (
     <S.Container>
-      <Navbar></Navbar>
-      <Hero></Hero>
-      <Partners></Partners>
-      <Info></Info>
-      <Resources></Resources>
-      <Testimonials></Testimonials>
-      <Authors></Authors>
-      <Action></Action>
-      <Faq></Faq>
+      <Navbar />
+      <Hero />
+      <Partners />
+      <Info />
+      <Resources />
+      <Testimonials />
+      <Authors />
+      <Action />
+      <Faq />
+      <Newsletter />
     </S.Container>
   );
 };

@@ -17,4 +17,5 @@ export const Button = styled.button<Props>`
     background-color: ${props => `${props.backgroundColor}`};
     border-radius: 18px;
     font-family: 'Circular Std Bold';
+    cursor: pointer;
 `;

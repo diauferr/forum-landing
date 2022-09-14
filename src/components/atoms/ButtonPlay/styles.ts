@@ -27,6 +27,7 @@ export const Button = styled.button<Props>`
     background-color: ${props => `${props.backgroundColor}`};
     border-radius: 20px;
     font-family: 'Circular Std Bold';
+    cursor: pointer;
 `;
 
 export const Image = styled.img`
