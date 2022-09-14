@@ -18,6 +18,10 @@ export const Main = styled.div`
     @media (min-width: 1024px) {
         margin: 0 30px 50px 30px;
     }
+
+    @media (min-width: 1536px) {
+        margin: 0 230px 50px 230px;
+    }
 `;
 
 export const Wrapper = styled.div`
